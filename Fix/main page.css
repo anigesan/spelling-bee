@@ -1,0 +1,53 @@
+:root {
+    --primaryChocolate: #cc8b00b0;
+    --secondaryChocolate: #ffcb3d;
+}
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+
+  .main{
+    height: 100vh;
+
+  }
+  body {
+    background-color: white;
+      }
+
+  .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box{
+    width: 500px;
+    height: 400px;
+    background-color: blanchedalmond;
+    flex-direction: column;
+    border-radius: 8px;
+    border: 2px solid gray;
+    box-shadow: 0 0 4px black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: center;
+    color: white;
+    margin: 5px;
+    padding: 8px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 2px solid black;
+    background-color: var(--primaryChocolate);
+  }
+  button:hover{
+      background-color: var(--secondaryChocolate);
+  }
+ 
